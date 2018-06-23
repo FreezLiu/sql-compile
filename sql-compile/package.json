@@ -1,0 +1,23 @@
+{
+  "name": "sql-compile",
+  "version": "1.0.0",
+  "description": "create sql based on objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mysql",
+    "sql",
+    "nodejs"
+  ],
+  "author": "lj",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.14.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.sqlCompile.com"
+  }
+}
