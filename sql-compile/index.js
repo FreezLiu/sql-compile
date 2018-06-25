@@ -91,6 +91,12 @@ function join(sql, op, keys) {
                 case 'orOn':
                     this.orOn(...e.orOn)
                     break;
+                case 'onIn':
+                    this.onIn(...e.onIn);
+                    break;
+                case 'onNotIn':
+                    this.onNotIn(...e.onNotIn);
+                    break;
                 default:
                     break;
             }
