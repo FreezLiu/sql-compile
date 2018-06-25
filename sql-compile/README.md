@@ -1,4 +1,3 @@
-[TOC]
 
 ---
 ## sql-compile
@@ -44,7 +43,7 @@ let sql = compile(params)
     { offset: 4 },
     { where: ["i", "<", "10", "and"] },
     { limit: 1 },
-    { join: { table: "info", info: [{ on: ["user.id", ">", "info.id"] }, { orOn: ["user.id", "<", "info.id"] }] } },
+    { join: { table: "info", info: [{ on: ["user.id", ">", "info.id"] }, { orOn: ["user.id", "<", "info.id"] }] } },//onIn:["id", [1, 2, 3]],onNotIn:["id", [1, 2, 3]]
 ]
 ```
 
